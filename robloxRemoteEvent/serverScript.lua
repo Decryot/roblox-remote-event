@@ -5,5 +5,6 @@ local remoteEvent = replicatedStorage:WaitForChild("RemoteEvent")
 
 -- the first argument should always be the player
 remoteEvent.OnServerEvent:Connect(function(player, args)
-    -- do stuff
+    -- do stuff:
+    print(args)
 end)
