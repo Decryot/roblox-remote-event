@@ -1,4 +1,4 @@
--- this would be the server script where you would call your remote events
+-- this would be the server script where the remote events get fired
 
 local replicatedStorage = game:GetService("ReplicatedStorage")
 local remoteEvent = replicatedStorage:WaitForChild("RemoteEvent")
